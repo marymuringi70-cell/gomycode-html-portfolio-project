@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <!-- nav section -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- the home section -->
+        
+        <section id="home">
+            <h1>Welcome to My Web Page</h1>
+
+            <img src="media/karura.JPG"  alt="image" width="200"> 
+            <p> My name is Mary. I am a web developer student at Gomycode.</p>
+            <video width="320" height="240" controls>
+                <source src="media/Car-Importation-Video.mp4" type="video/mp4">
+                
+            </video>
+        </section>
+        <!-- about section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am passionate about creating clean and functional web interfaces.</p>
+        </section>
+
+        <!-- work section -->
+        <section id="work">
+            <h2>My Work</h2>
+            <ul>
+                <li>Car Importer</li>
+                <li>Software Developer</li>
+                <li>Student at Gomycode</li>
+            </ul>
+        </section>
+<!-- resume section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <table border="1">
+                <tr>
+                    <th>Year</th>
+                    <th>Experience</th>
+                </tr>
+                <tr>
+                    <td>2026</td>
+                    <td>Web Development Student</td>
+                </tr>
+                <tr>
+                    <td>2021 - 2023</td>
+                    <td>Diploma IT</td>
+                </tr>
+            </table>
+        </section>
+<!-- contact section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
